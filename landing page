@@ -1,0 +1,145 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Landing Page</title>
+</head>
+<body>
+    <header id="header">
+        <img id="header-img" src="logo.png" alt="Company Logo">
+        <nav id="nav-bar">
+            <ul>
+                <li><a class="nav-link" href="#section1">Section 1</a></li>
+                <li><a class="nav-link" href="#section2">Section 2</a></li>
+                <li><a class="nav-link" href="#section3">Section 3</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="section1">
+        <h2>Section 1</h2>
+        <!-- Content for Section 1 -->
+    </section>
+
+    <section id="section2">
+        <h2>Section 2</h2>
+        <!-- Content for Section 2 -->
+    </section>
+
+    <section id="section3">
+        <h2>Section 3</h2>
+        <!-- Content for Section 3 -->
+    </section>
+
+    <video id="video" controls>
+        <source src="product-video.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+
+    <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <label for="email">Enter your email:</label>
+      <input id="email" name="email" type="email" placeholder="Email Address" required>
+        <input id="submit" type="submit" value="Submit">
+    </form>
+</body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+ 
+#nav-bar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #333;
+    z-index: 1;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+/* Header styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+#header-img {
+    width: 100px;
+    height: 100px;
+}
+
+
+
+.nav-link {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #fff;
+}
+
+/* Section styles */
+section {
+    padding: 50px;
+    background-color: #f0f0f0;
+}
+
+/* Video styles */
+#video {
+    display: block;
+    margin: 0 auto;
+    width: 80%;
+}
+
+/* Form styles */
+#form {
+    text-align: center;
+    margin: 20px auto;
+}
+
+#email {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+}
+
+#submit {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+}
+#section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    margin: 0 auto;
+}
+@media (max-width: 768px) {
+    #section1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+
+
+** end of undefined **
+
